@@ -32,4 +32,4 @@ Steps to run the project
 
 1)download PBproject folder and run the scala file,then it will run all the queries and save each query in separate .csv file(we can see in python files\outputcsvfiles)
 
-2)next run the python files(python file\python code) for individual query and it will visualize the chart(outputvisualization\visualization)
+2)next run the python files(python file\python code) for individual query and it will read data from csv file and it will plot in the chart(outputvisualization\visualization)
