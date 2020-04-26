@@ -29,5 +29,7 @@ o	Table “parquetFile” to store each information of Json file .
 •	In spark, it will store in the form of named column format ,and we give a table name
 
 Steps to run the project
+
 1)download PBproject folder and run the scala file,then it will run all the queries and save each query in separate .csv file(we can see in python files\outputcsvfiles)
+
 2)next run the python files(python file\python code) for individual query and it will visualize the chart(outputvisualization\visualization)
