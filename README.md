@@ -1,4 +1,4 @@
-# prinBigdataphase2
+﻿# prinBigdataphase2
 SOFTWARES USED
 
 •	We used intellij IDEA for running spark sql queries, and written in scala language
@@ -20,7 +20,8 @@ o	Table “parquetFile” to store each information of Json file .
 
 •	After that we used matplotlib to visualize the data in pie chart, bar chart etc 
 
-•	We used tkinter module for GUI programming to keep buttons and when we click on it, it will execute that particular query and output chart will display
+•	We used tkinter module for GUI programming to keep buttons and when we click on it, it will execute that particular query and output chart will display. here we have integrated everything using tkinter ,and written again everything python using pyspark.so if we click button ,it will run spark sql query and visualize the chart
+
 
 1.	Load data
 
@@ -33,3 +34,6 @@ Steps to run the project
 1)download PBproject folder and run the scala file,then it will run all the queries and save each query in separate .csv file(we can see in python files\outputcsvfiles)
 
 2)next run the python files(python file\python code) for individual query and it will read data from csv file and it will plot in the chart(outputvisualization\visualization)
+3)we integrated above 2 steps using pyspark module in python ,and created GUI
+If user click on query buttons,it will execute that particular query , and display chart
+For that run tkinter.py file present in (GUI programming\tkinter.py), and queries written in queries1.py ,and imported that file in tkinter.py
