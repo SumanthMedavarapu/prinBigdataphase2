@@ -34,6 +34,8 @@ Steps to run the project
 1)download PBproject folder and run the scala file,then it will run all the queries and save each query in separate .csv file(we can see in python files\outputcsvfiles)
 
 2)next run the python files(python file\python code) for individual query and it will read data from csv file and it will plot in the chart(outputvisualization\visualization)
+
+
 3)we integrated above 2 steps using pyspark module in python ,and created GUI
 If user click on query buttons,it will execute that particular query , and display chart
 For that run tkinter.py file present in (GUI programming\tkinter.py), and queries written in queries1.py ,and imported that file in tkinter.py
